@@ -1,0 +1,27 @@
+.first {
+    background-color: aqua;
+    width: 180px;
+}
+.second{
+    background-color: pink;
+    width: 180px;
+}
+footer{
+    background-color: coral;
+    height: 50vh;
+    display : flex;
+    max-width: 700px;
+    width: 95%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 540px){
+    footer{
+        flex-direction: column;
+        justify-content: start;
+        height: auto;
+    }
+}
+
+
